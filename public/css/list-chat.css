@@ -12,3 +12,47 @@ body {
   min-width: 300px;
   max-width: 650px;
 }
+
+/* Screen Header */
+.screen-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px var(--gap-10);
+  background-color: var(--primary-color);
+}
+
+.screen-header__title {
+  font-size: var(--font-size-xlarge);
+  font-weight: 600;
+}
+
+.screen-header__icon {
+  margin-left: var(--gap-10);
+}
+
+.screen-header__icon img {
+  width: 20px;
+}
+
+/* Navigation */
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--secondary-color);
+}
+
+.nav__button {
+  position: relative;
+}
+
+
