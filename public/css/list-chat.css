@@ -1,0 +1,14 @@
+body {
+  min-width: 320px;
+  max-width: 720px;
+  font-size: 10px;
+  background-color: var(--primary-color);
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  color: var(--black-color);
+  margin: 0 auto;
+}
+
+.container{
+  min-width: 300px;
+  max-width: 650px;
+}
