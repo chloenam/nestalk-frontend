@@ -83,6 +83,27 @@ body {
   background-color: var(--white-color);
 }
 
+/* Group chat */
+.user-chat__group{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.group{
+  margin-right: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 9px;
+}
+
+.user-chat__group--num{
+  margin-left: 5px;
+  color: var(--gray-color);
+  font-weight: 500;
+}
+
 .user-chat__title {
   margin-bottom: 3px;
   font-size: var(--font-size-regular);
