@@ -11,6 +11,7 @@ body {
 .container{
   min-width: 300px;
   max-width: 650px;
+  margin: 0 auto;
 }
 
 /* Screen Header */
